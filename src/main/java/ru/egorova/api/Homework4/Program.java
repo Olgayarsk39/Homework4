@@ -67,29 +67,7 @@ public class Program {
         }
         return rev_ls;
     }
-/*
 
-static void task2() {
-    Scanner sc = new Scanner(System.in);
-    MyQueue linkedList = new MyQueue();
-    linkedList.encueue(1);
-    linkedList.encueue(2);
-    linkedList.encueue(3);
-    linkedList.encueue(4);
-   System.out.println(linkedList.getElements()); 
-
-   System.out.println("Введите элемент:    ");
-   linkedList.encueue(sc.nextInt());
-    System.out.println("Добавление элемента в конец очереди   " + linkedList.getElements()); 
-    System.out.print("Возвращение 1-ого элемента в очереди и его удаление " + linkedList.dequeue() + "   "); 
-    System.out.println(linkedList.getElements()); 
-    System.out.print("Возвращение 1-ого элемента в очереди без удаления " + linkedList.first() + "   "); 
-    System.out.println(linkedList.getElements()); 
-    
- }
-        
-
-*/
     
 
 /*
@@ -139,6 +117,29 @@ class MyQueue {
         return ls.getFirst();
     }
 
+    /*
+
+static void task2() {
+    Scanner sc = new Scanner(System.in);
+    MyQueue linkedList = new MyQueue();
+    linkedList.encueue(1);
+    linkedList.encueue(2);
+    linkedList.encueue(3);
+    linkedList.encueue(4);
+   System.out.println(linkedList.getElements()); 
+
+   System.out.println("Введите элемент:    ");
+   linkedList.encueue(sc.nextInt());
+    System.out.println("Добавление элемента в конец очереди   " + linkedList.getElements()); 
+    System.out.print("Возвращение 1-ого элемента в очереди и его удаление " + linkedList.dequeue() + "   "); 
+    System.out.println(linkedList.getElements()); 
+    System.out.print("Возвращение 1-ого элемента в очереди без удаления " + linkedList.first() + "   "); 
+    System.out.println(linkedList.getElements()); 
+    
+ }
+        
+
+*/
 
 
     /*
